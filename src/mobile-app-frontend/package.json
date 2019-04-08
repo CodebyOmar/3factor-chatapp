@@ -1,0 +1,29 @@
+{
+  "name": "3factor-chatapp",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "apollo-boost": "0.1.28",
+    "apollo-cache-inmemory": "1.5.1",
+    "apollo-client": "^2.3.8",
+    "apollo-link": "1.2.11",
+    "apollo-link-error": "1.1.10",
+    "apollo-link-http": "1.5.14",
+    "apollo-link-ws": "1.0.17",
+    "apollo-utilities": "1.2.1",
+    "graphql": "^14.0.0",
+    "graphql-tag": "2.10.1",
+    "prop-types": "*",
+    "react-apollo": "2.2.4",
+    "react-native-gifted-chat": "0.7.2",
+    "react-native-paper": "2.2.8",
+    "react-navigation": "3.2.3",
+    "subscriptions-transport-ws": "^0.9.0"
+  }
+}

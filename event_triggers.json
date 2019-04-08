@@ -1,0 +1,47 @@
+{
+	"type": "bulk",
+	"args": [
+		{
+			"args": {
+				"headers": [],
+				"insert": {
+					"columns": [
+						"id",
+						"username",
+						"last_seen",
+						"last_typed",
+						"date_created"
+					]
+				},
+				"name": "add-user-to-rooms",
+				"table": {
+					"name": "users",
+					"schema": "public"
+				},
+				"webhook": ""
+			},
+			"type": "create_event_trigger"
+		},
+        {
+			"args": {
+				"headers": [],
+				"insert": {
+					"columns": [
+						"id",
+						"msg_text",
+						"username",
+						"room_id",
+						"msg_timestamp"
+					]
+				},
+				"name": "send-push-notification",
+				"table": {
+					"name": "messages",
+					"schema": "public"
+				},
+				"webhook": ""
+			},
+			"type": "create_event_trigger"
+		}
+	]
+}
