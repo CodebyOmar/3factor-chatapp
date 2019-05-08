@@ -10,4 +10,4 @@ Here we built a chat application the satisfies the 3 factors above. Using the Ha
 
 The mobile app can be previewed on Expo snack via this link https://snack.expo.io/@codebyomar/3factor-chatapp
 
-You can also follow the step by step tutorial on how to build this chat app on Hasura blog blog.hasura.io
+You can also follow the step by step tutorial on how to build this chat app here ---> https://blog.hasura.io/build-a-realtime-mobile-chat-app-using-3factor-architecture/
